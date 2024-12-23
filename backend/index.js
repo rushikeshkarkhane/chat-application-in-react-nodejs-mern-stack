@@ -11,6 +11,6 @@ app.use("/",routes)
 app.use('/uploads',express.static(path.join(__dirname, 'uploads')));
 
 
-// app.listen(process.env.PORT,()=>{
-//     console.log(`Project Running ${process.env.PORT}`)
-// })
+app.listen(process.env.PORT,()=>{
+    console.log(`Project Running ${process.env.PORT}`)
+})
